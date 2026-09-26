@@ -1,0 +1,58 @@
+:root {
+  /* Header */
+  --navbar-bg-color: #e4e4e4;
+  --navbar-text-color: #000000;
+  --navbar-active-bg-color: #e4e4e4;
+  --navbar-text-hover-color: #008e8e;
+  --header-description-color: #000000;
+  --header-jumbotron-border-color: #1a6200;
+  --header-h1-color: #000000;
+  --header-h2-color: #000000e3;
+
+  /* Body */
+  --body-color: #d9d9d9;
+  --body-txt-color: #000000;
+
+  /* Main */
+  --main-color: #00fcfc;
+  --main-jobs-button-color: #00ffff;
+  --main-jobs-button-text-color: #000000;
+  --main-jobs-button-hover-color: #000000;
+  --main-jobs-button-hover-text-color: #007b7b;
+  --main-jobs-button-background-color: radial-gradient(#ffffff, transparent);
+  --main-feature-bg-color: #000000;
+  --main-feature-text-color: #000000;
+
+  /* Scrollbar */
+  --scrollbar-color: #000000;
+  --scrollbar-bg-color: #ff6262;
+
+  /* Contact */
+  --contact-bg-color: #e4e4e4;
+  --contact-text-color: #000000;
+  --contact-input-color: #000000;
+  --contact-input-bg-color: #e100ff;
+  --contact-input-border-color: #000000;
+  --contact-input-border-focus-color: #008e8e;
+  --contact-button-background-color: #e100ff;
+  --contact-input-placeholder-color: #dc058a;
+  --contact-textarea-color: #000000;
+
+  /* Support */
+  --support-main-text-color: #000000;
+  --support-high-text-color: #00ffff;
+  --support-low-text-color: #000000;
+  --support-bold-text-color: #000000;
+  --support-italic-text-color: #00ffff;
+  --support-button-text-color: #000303;
+  --support-button-background-color: #00ffff;
+  --support-button-hover-background-color: #000000;
+  --support-button-hover-text-color: #00ffff;
+
+  /* Footer  */
+  --footer-text-color: 000000;
+  --footer-a-color: #505151;
+  --footer-a-hover-color: #008e8e;
+  --footer-bg-color: #e4e4e4;
+  --footer-hr-color: #008e8e;
+}

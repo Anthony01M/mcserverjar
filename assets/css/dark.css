@@ -1,0 +1,58 @@
+:root {
+  /* Header */
+  --navbar-bg-color: #1b1b1b;
+  --navbar-text-color: #ffffff;
+  --navbar-active-bg-color: #1b1b1bb7;
+  --navbar-text-hover-color: #ff7171;
+  --header-description-color: #ffffff;
+  --header-jumbotron-border-color: #e59dff;
+  --header-h1-color: #ffffff;
+  --header-h2-color: #ffffffe3;
+
+  /* Body */
+  --body-color: #262626;
+  --body-txt-color: #ffffff;
+
+  /* Main */
+  --main-color: #ff0303;
+  --main-jobs-button-color: #ff0000;
+  --main-jobs-button-text-color: #ffffff;
+  --main-jobs-button-hover-color: #ffffff;
+  --main-jobs-button-hover-text-color: #ff8484;
+  --main-jobs-button-background-color: radial-gradient(#000000, transparent);
+  --main-feature-bg-color: #ffffff;
+  --main-feature-text-color: #ffffff;
+
+  /* Scrollbar */
+  --scrollbar-color: #ffffff;
+  --scrollbar-bg-color: #ff6262;
+
+  /* Contact */
+  --contact-bg-color: #1b1b1b;
+  --contact-text-color: #ffffff;
+  --contact-input-color: #ffffff;
+  --contact-input-bg-color: #1eff00;
+  --contact-input-border-color: #ffffff;
+  --contact-input-border-focus-color: #ff7171;
+  --contact-button-background-color: #1eff00;
+  --contact-input-placeholder-color: #23fa75;
+  --contact-textarea-color: #ffffff;
+
+  /* Support */
+  --support-main-text-color: #ffffff;
+  --support-high-text-color: #ff0000;
+  --support-low-text-color: #ffffff;
+  --support-bold-text-color: #ffffff;
+  --support-italic-text-color: #ff0000;
+  --support-button-text-color: #fffcfc;
+  --support-button-background-color: #ff0000;
+  --support-button-hover-background-color: #ffffff;
+  --support-button-hover-text-color: #ff0000;
+
+  /* Footer  */
+  --footer-text-color: #ffffff;
+  --footer-a-color: #afaeae;
+  --footer-a-hover-color: #ff7171;
+  --footer-bg-color: #1b1b1b;
+  --footer-hr-color: #ff7171;
+}

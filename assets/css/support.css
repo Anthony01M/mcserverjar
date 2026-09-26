@@ -1,0 +1,83 @@
+main #support h2 {
+  text-align: center;
+  color: var(--support-high-text-color);
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 40px 0;
+}
+
+main #support {
+  color: var(--support-main-text-color);
+}
+
+main #support .service {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main #support .supervisor {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-content: space-between;
+}
+
+main #support .service p {
+  margin: 20px;
+}
+
+main #support h3 {
+  color: var(--support-low-text-color);
+}
+
+main #support .service h3 b {
+  color: var(--support-bold-text-color);
+}
+
+main #support .service h3 i {
+  color: var(--support-italic-text-color);
+}
+
+main #support .button-outline {
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid var(--support-button-background-color);
+  text-decoration: none;
+  color: var(--support-button-text-color);
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+main #support .button-outline i {
+  display: none;
+}
+
+main #support .button-outline:hover i {
+  display: inline;
+  margin-left: 8px; /* add some space between the text and icon */
+}
+
+main #support .button-outline:hover {
+  border-color: var(--support-button-hover-background-color);
+  color: var(--support-button-hover-text-color);
+}
+
+/* mobile support */
+
+@media screen and (max-width: 600px) {
+  main #support .supervisor {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  main #support .service {
+    max-width: 100%;
+  }
+
+  main #support .button-outline {
+    margin: 10px;
+  }
+}

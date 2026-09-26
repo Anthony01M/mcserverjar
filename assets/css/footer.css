@@ -1,0 +1,126 @@
+footer {
+  color: var(--footer-text-color);
+  background-color: var(--footer-bg-color);
+}
+
+footer #footer {
+  grid-template-columns: repeat(5, 3fr);
+  padding: 2.5% 2.5% 0% 2.5%;
+}
+
+@media (max-width: 1110px) {
+  footer #footer {
+    grid-template-columns: repeat(5, 3fr);
+    padding: 2.5% 2.5% 1% 2.5%;
+  }
+}
+
+footer .copyright {
+  text-align: center;
+}
+
+footer .fb {
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+@media (min-width: 1111px) {
+  footer .fb {
+    padding-bottom: 10px;
+  }
+}
+
+footer h1 {
+  font-size: 1.5rem;
+}
+
+footer .column {
+  line-height: 1.25rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+  padding-top: 0;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: var(--footer-a-color);
+}
+
+footer a:hover {
+  color: var(--footer-a-hover-color);
+}
+
+footer hr {
+  border: 1px solid var(--footer-hr-color);
+  margin: 0;
+}
+
+footer .social {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+footer .social a {
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+footer .spacer {
+  padding: 10px 0;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+  display: none;
+}
+
+.label {
+  width: 60px;
+  height: 20px;
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  position: relative;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball {
+  transform: translateX(28px);
+}
+
+.fa-moon {
+  color: pink;
+  margin-right: 5px;
+}
+
+.fa-sun {
+  color: yellow;
+  margin-left: 5px;
+}
